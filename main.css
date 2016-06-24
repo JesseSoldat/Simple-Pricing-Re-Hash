@@ -2,6 +2,10 @@ body, h1, h2, h3, h4, h5, ul {
 	margin: 0;
 	padding: 0;
 }
+#mainWrapper {
+
+}
+/*------------------navigation----------------------*/
 
 #logo {
 	display: inline-block;
@@ -26,24 +30,17 @@ body, h1, h2, h3, h4, h5, ul {
 	list-style: none;
 	display: inline-block;
 	margin-left: 3%;
-
 }
-
+/*-----------------------banner--------------------------*/
 #banner {
 	position: relative;
 	width: 100%;
 	height: 370px;
 	background-image: url("background.jpg");
 	background-position: 0px -15px;	
-
+	margin-bottom: 60px;
 }
-/*.bannerText {
-	color: white;
-	text-shadow: 2px 2px 2px black;
-	font-size: 45px;
-	position: absolute;
-	left: 35%;
-}*/
+
 #bannerText {
 	position: absolute;
 	top: 130px;
@@ -56,14 +53,49 @@ body, h1, h2, h3, h4, h5, ul {
 	text-shadow: 1px 1px 1px black;
 	font-size: 45px;
 	text-align: center;
-
 }
 #simpleTitle {
 	padding-bottom: 15px;
-	
 }
 #simpleSub {
 	position: absolute;
 	top: 150px;
+}
+/*----------------mainContent----------------*/
+#mainContent {
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+}
+.plansContainer {
+	background-color: grey;
+	height: 400px;
+	width: 30%;
+	float: left;
+	margin-right: 3%;
+}
+.colorBox {
+	height: 200px;
+	width: 100%;
+}
+#personal {
+	
+}
+#greenPrice {
+	background-color: #519251;
+}
 
+#smallBusiness {
+	
+}
+#bluePrice {
+	background-color: #2C4985;
+	
+}
+#enterprise {
+
+}
+#blackPrice {
+	background-color: #111111;
+	
 }
