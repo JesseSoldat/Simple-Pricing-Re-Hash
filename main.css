@@ -1,39 +1,69 @@
-body {
-	
+body, h1, h2, h3, h4, h5, ul {
+	margin: 0;
+	padding: 0;
 }
+
 #logo {
 	display: inline-block;
 	width: 8%;
+	padding: 5px;
+	margin: 0;
 }
+#logo h5 {
+	margin-left: 10%;
+}
+
 #navList {
 	width: 80%;
 	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#navList ul {
+	padding: 5px;
 }
 #navList li {
 	list-style: none;
 	display: inline-block;
+	margin-left: 3%;
 
 }
 
 #banner {
 	position: relative;
 	width: 100%;
-	height: 300px;
-	background-image: url("background.jpg");	
+	height: 370px;
+	background-image: url("background.jpg");
+	background-position: 0px -15px;	
 
 }
-.bannerText {
+/*.bannerText {
 	color: white;
-	text-shadow: 5px 5px 5px black;
+	text-shadow: 2px 2px 2px black;
+	font-size: 45px;
+	position: absolute;
+	left: 35%;
+}*/
+#bannerText {
+	position: absolute;
+	top: 130px;
+	left: 35%;
+}
+#bannerText h1 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-size: 45px;
+	text-align: center;
+
 }
 #simpleTitle {
-	position: absolute;
-	top: 100px;
-	left: 40%;
+	padding-bottom: 15px;
+	
 }
 #simpleSub {
 	position: absolute;
 	top: 150px;
-	left: 40%;
 
 }
